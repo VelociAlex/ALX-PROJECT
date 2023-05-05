@@ -1,0 +1,364 @@
+@charset "utf-8";
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+        * {
+    margin-top: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    text-align: center;
+						        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* seccion I N I C I O */
+        
+        
+#inicio {
+    background-image: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(Imagenes/a1.jpg);    
+    background-size: cover;
+    background-position: center center;
+    height: 865px;
+ }
+ #inicio .contenido header {
+    background-color: rgba(255,255,255,0.95);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+#inicio .contenido header .contenido-header {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+                
+        
+        
+        #inicio .contenido header .contenido-header nav ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul li a {
+            text-decoration: none;
+            color: black;
+            margin: 0 12px;
+            font-weight: 500;
+            transition: .5s;
+        }
+        
+        #inicio .contenido header .contenido-header nav ul li a:hover {
+            color: #04dafa;
+        }
+        
+        #inicio .contenido header .contenido-header .redes a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin-left: 10px;
+            transition: .5s;
+        }
+        
+               
+        #inicio .contenido header .contenido-header .seleccionado {
+            color: black;
+			font-weight: bold;
+        }     
+	
+
+
+        #icono-nav {
+            color: #fff;
+            display: none;
+        }
+#inicio .contenido .presentacion
+/* seccion SOBRE MI */
+  #sobremi {
+            max-width: 1100px;
+            margin: auto;
+            padding: 100px 15px;
+            color: #fff;
+            display: flex;
+        }
+                        
+        #sobremi .sobremi {
+            margin: 80px;
+			text-align: center;
+        }
+        
+        #sobremi .sobremi .titulo-seccion {
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #111135;
+            text-decoration: underline;
+            text-decoration-color: #04dafa;
+            text-decoration-thickness: 3px;
+			margin-top: 50px;
+        }
+        
+        #sobremi .sobremi h2 {
+            font-size: 60px;
+            font-weight: bold;
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+       
+        
+        #sobremi .sobremi p {
+            font-size: 14px;
+            line-height: 25px;
+            color: #565656;
+            margin-bottom: 12px;
+        }
+            
+        
+     
+            
+/* seccion REDES */
+#social h1 {
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-color: #04dafa;
+	text-decoration-thickness: 3px;
+}
+#social {
+       background-image: linear-gradient(0deg,rgba(0,0,0,0.70) 0%,rgba(160,219,31,0.81) 100%), url("Imagenes/a2.jpg");
+}
+#social .social img:hover {
+	transform:scale(1.15);
+	transition: .3s;
+	
+}
+
+
+
+
+        /* seccion SERVICIOS */
+        
+        
+        #servicios {
+    padding: 100px 15px;
+    text-align: center;  
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.70) 0%,rgba(179,64,219,0.74) 100%), url(Imagenes/a7.jpg);
+}
+        
+        
+        #servicios .titulo-seccion {
+            text-align: center;
+            font-size: 50px;
+            text-transform: uppercase;
+            color: white;
+            text-decoration: underline;
+            text-decoration-color: #04dafa;
+            text-decoration-thickness: 3px;
+        }
+        
+        #servicios .fila {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1150px;
+            margin: 30px auto;
+        }
+        
+        #servicios .fila .servicio {
+            max-width: 350px;
+            background-color: #fff;
+            padding: 30px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: .5s;
+        }
+        
+        #servicios .fila .servicio:hover {
+            box-shadow: 5px 5px 10px #04dafa;
+        }
+        
+        #servicios .fila .servicio .icono {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #d3d3d3;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        
+        #servicios .fila .servicio h4 {
+            font-size: 22px;
+            margin-bottom: 25px;
+        }
+        
+        #servicios .fila .servicio hr {
+            width: 30%;
+            margin: auto;
+            color: #000;
+            margin-bottom: 25px;
+        }
+        
+        #servicios .fila .servicio ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+        
+        #servicios .fila .servicio p {
+            font-size: 14px;
+            line-height: 22px;
+}
+
+        /* seccion PROYECTOS */
+              
+#proyectos{
+            max-width: 1920px;
+            padding: 100px 0;
+            margin: auto;
+        }
+        
+#proyectos .titulo-seccion{
+            text-align: center;
+            font-size: 50px;
+            text-transform: uppercase;
+            color: black;
+            text-decoration: underline;
+            text-decoration-color: #04dafa;
+            text-decoration-thickness: 3px;
+        }
+        
+#proyectos .fila{
+            display: flex;
+            justify-content: space-between; 
+
+
+	     }
+        
+        #proyectos .fila .proyecto {
+            max-width: 520px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #proyectos .fila .proyecto img {
+            width: 100%;
+            height: 100%;
+			;
+            filter: grayscale(1);
+            object-fit: cover;
+            transition: .5s;
+        }
+        
+        #proyectos .fila .proyecto:hover img {
+            filter: grayscale(0);
+        }
+        
+        #proyectos .fila .proyecto .info {
+            position: absolute;
+            left: 0px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #04dafa;
+            width: 100%;
+            padding: 10px;
+            opacity: 0;
+            bottom: -40px;
+            transition: .5s;
+        }
+        
+        #proyectos .fila .proyecto:hover .info {
+            opacity: 1;
+            bottom: 0;
+        }
+       
+        /* seccion CONTACTO */
+       
+        
+        #contacto {
+    padding: 100px 15px;    
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.70) 0%,rgba(219,108,20,0.52) 100%), url("Imagenes/a3.jpg");
+        }
+        
+        #contacto .titulo-seccion {
+            margin-bottom: 20px;
+        }
+#contacto h1 {
+	text-align: center;
+	font-size: 50px;
+	color: #04dafa;
+}
+        
+        #contacto .contenedor-form {
+            max-width: 1100px;
+            margin: auto;
+        }
+        
+        #contacto .contenedor-form .fila {
+            margin-bottom: 15px;
+        }
+        
+        #contacto .contenedor-form .mitad {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+        
+        #contacto .contenedor-form input,
+        #contacto .contenedor-form textarea {
+            padding: 20px;
+            border-radius: 20px;
+            border: none;
+            border: 1px solid #b340d;
+        }
+        
+        #contacto .contenedor-form .mitad input {
+    		width: 400px;
+        }
+        
+        #contacto .contenedor-form .input-full {
+            width: 100%;
+        }
+        
+        #contacto .titulo-seccion {
+            text-align: center;
+            font-size: 22px;
+            text-transform: uppercase;
+            color: white;           
+        }
+        
+        #contacto .btn-enviar {
+            display: block;
+            margin: auto;
+            cursor: pointer;
+            transition: .5s;
+            padding: 10px 15px !important;
+        }
+        
+        #contacto .btn-enviar:hover {
+            background-color: #04dafa;
+            color: #fff;
+        }
+        
+        /* seccion FOOTER */
+        
+        
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        footer a {
+            text-decoration: none;
+            color: #fff;
+            display: inline-block;
+            margin: 5px;
+            font-size: 26px;
+        }
